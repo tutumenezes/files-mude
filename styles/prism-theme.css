@@ -11,13 +11,27 @@
   background-color: rgba(17, 24, 39, 1);
   border-color: rgba(55, 65, 81, 1);
 }
-.notion code {
-  color: rgba(31, 41, 55, 1);
-  border: 0 none !important;
-  box-shadow: none !important;
-  background: none !important;
-  padding: 0 !important;
+/*.notion code {*/
+/*  color: rgba(31, 41, 55, 1);*/
+/*  border: 0 none !important;*/
+/*  box-shadow: none !important;*/
+/*  background: none !important;*/
+/*  padding: 0 !important;*/
+/*}*/
+
+@media screen and (min-width: 1300px) {
+  .notion-table-of-contents {
+    display: none;
+  }
+
+  .notion-aside-table-of-contents .notion-table-of-contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 4px 0;
+  }
 }
+
 .dark-mode .notion code {
   color: rgba(229, 231, 235, 1);
 }

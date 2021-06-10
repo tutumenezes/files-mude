@@ -155,7 +155,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
       pageAside = <PageActions tweet={tweet} />
     }
   } else {
-    pageAside = <PageSocial />
+    // pageAside = <PageSocial />
   }
 
   return (
@@ -258,7 +258,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         darkMode={darkMode.value}
         previewImages={site.previewImages !== false}
         showCollectionViewDropdown={false}
-        showTableOfContents={showTableOfContents}
+        showTableOfContents={true}
         minTableOfContentsItems={minTableOfContentsItems}
         defaultPageIcon={config.defaultPageIcon}
         defaultPageCover={config.defaultPageCover}
@@ -276,7 +276,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         }
       />
 
-      <GitHubShareButton />
+      {/*<GitHubShareButton />*/}
     </TwitterContextProvider>
   )
 }

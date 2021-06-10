@@ -23,9 +23,9 @@ module.exports = {
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
-  defaultPageCoverPosition: 0.5,
+  defaultPageIcon: 'https://bucket-ashinch.oss-cn-hangzhou.aliyuncs.com/uPic/default-page-icon.png',
+  defaultPageCover: 'https://bucket-ashinch.oss-cn-hangzhou.aliyuncs.com/uPic/mac-Monterey-pic.png',
+  defaultPageCoverPosition: 0.7,
 
   // image CDN host to proxy all image requests through (optional)
   // NOTE: this requires you to set up an external image proxy
@@ -37,7 +37,7 @@ module.exports = {
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
   // variables specified in .env.example
-  isPreviewImageSupportEnabled: true,
+  isPreviewImageSupportEnabled: false,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
