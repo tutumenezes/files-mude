@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '6d8427c3f7c14f8cb0ab84119ef9600d',
+  rootNotionPageId: '2922007f8dfd4d1f82d6cdd988be973d',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -12,9 +12,9 @@ module.exports = {
   author: 'Ashinch',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: 'Ash的知识库',
+  socialImageTitle: 'Ash\'s Knowledge Base',
+  socialImageSubtitle: 'by Ashinch',
 
   // social usernames (optional)
   twitter: '',
@@ -37,7 +37,7 @@ module.exports = {
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
   // variables specified in .env.example
-  isPreviewImageSupportEnabled: false,
+  isPreviewImageSupportEnabled: true,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
