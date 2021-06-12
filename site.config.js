@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Ash\'s Knowledge Base',
-  domain: 'ashinch.com',
+  domain: 'www.ashinch.com',
   author: 'Ashinch',
 
   // open graph metadata (optional)

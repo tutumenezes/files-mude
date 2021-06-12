@@ -352,7 +352,7 @@
 }
 
 .dark-mode {
-  background: black;
+  /*background: black;*/
 }
 
 .dark-mode .notion-pink_background,
@@ -374,8 +374,8 @@
     119deg, var(--bg-color), #6f477d 10.5%, #811da5 85.29%, var(--bg-color));
 }
 
-.dark-mode .notion code {
-  color: #c92c2c;
+.dark-mode .notion-inline-code {
+  color: #EB5757 !important;
   /*background: #232323;*/
 }
 
