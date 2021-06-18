@@ -108,6 +108,10 @@
   overflow-x: scroll;
 }
 
+.notion-header .breadcrumbs::-webkit-scrollbar {
+  display: none;
+}
+
 .notion-block-a17c0b7a609044aab619f87add1bba40 .notion-collection-card-property {
   padding: 4px 0;
   white-space: nowrap;
