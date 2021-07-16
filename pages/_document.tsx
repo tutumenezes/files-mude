@@ -1,5 +1,5 @@
 import React from 'react'
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { IconContext } from 'react-icons'
 
 export default class MyDocument extends Document {
@@ -35,6 +35,21 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+
+            {/*Google Analytics*/}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-78YDB051FR"></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-78YDB051FR', {
+                page_path: window.location.pathname,
+              });
+          `
+              }}
+            />
           </Head>
 
           <body>
