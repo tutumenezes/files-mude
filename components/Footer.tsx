@@ -51,18 +51,6 @@ export const Footer: React.FC<{
           </a>
         )}
 
-        {config.github && (
-          <a
-            className={styles.github}
-            href={`https://github.com/${config.github}`}
-            title={`GitHub @${config.github}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaGithub />
-          </a>
-        )}
-
         {config.linkedin && (
           <a
             className={styles.linkedin}
@@ -75,7 +63,7 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
-      <div className={styles.copyright}>© Copyright 2021 {config.author} <a href="https://beian.miit.gov.cn/">桂ICP备18011166号-1</a></div>
+      <div className={styles.copyright}>© Copyright 2022 {config.author}</div>
     </footer>
   )
 }

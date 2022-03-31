@@ -1,30 +1,30 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '2922007f8dfd4d1f82d6cdd988be973d',
+  rootNotionPageId: 'c8dee24630874b7090eba8a2ece8d703',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Ash\'s Knowledge Base',
-  domain: 'www.ashinch.com',
-  author: 'Ashinch',
+  name: 'Mude Files',
+  domain: 'mude.fit',
+  author: 'Mude Team',
 
   // open graph metadata (optional)
-  description: 'Ash的知识库',
-  socialImageTitle: 'Ash\'s Knowledge Base',
-  socialImageSubtitle: 'by Ashinch',
+  description: 'Easy way for Mude to share Files',
+  socialImageTitle: 'Mude File System',
+  socialImageSubtitle: 'by Mude Team',
 
   // social usernames (optional)
   twitter: '',
-  github: 'Ashinch',
-  linkedin: '',
+  github: 'mudefit',
+  linkedin: 'https://www.linkedin.com/company/linkedindamude/',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://bucket-ashinch.oss-cn-hangzhou.aliyuncs.com/uPic/default-page-icon.png',
-  defaultPageCover: 'https://bucket-ashinch.oss-cn-hangzhou.aliyuncs.com/uPic/mac-Monterey-pic.png',
+  defaultPageIcon: '',
+  defaultPageCover: '',
   defaultPageCoverPosition: 0.7,
 
   // image CDN host to proxy all image requests through (optional)
@@ -32,7 +32,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'Ashinch/ashinch.com',
+  utterancesGitHubRepo: '',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
